@@ -33,3 +33,22 @@ Como equipo, establecemos los siguientes acuerdos para mantener una buena organi
 Proyecto: Sistema de Gestión de Tareas Escolares
 Equipo: 4
 Metodología de desarrollo: Extreme Programming (XP)
+
+
+## Definición de Terminado (DoD)
+
+Una tarea o historia se considera terminada cuando cumple con los siguientes criterios:
+
+1. El desarrollo de la funcionalidad está completo.
+2. El código cumple con los requisitos establecidos.
+3. Se realizaron las pruebas correspondientes.
+4. Las pruebas se ejecutaron correctamente.
+5. Se revisaron los cambios antes de integrarlos.
+6. No existen errores conocidos que impidan el funcionamiento.
+7. Los cambios fueron aceptados y fusionados mediante un Pull Request.
+8. La documentación correspondiente fue actualizada cuando fue necesario.
+
+### Proceso de revisión
+
+Cada integrante debe verificar que su trabajo cumpla con estos criterios antes de marcar una historia como terminada.
+
