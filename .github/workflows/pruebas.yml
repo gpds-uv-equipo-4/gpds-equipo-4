@@ -20,20 +20,5 @@ jobs:
           php-version: '8.2'
 
       - name: Revisar archivos PHP
-        shell: bash
         run: |
-          mapfile -d '' archivos < <(find . -type f -name '*.php' \
-            -not -path './vendor/*' \
-            -not -path './.git/*')
-
-          if [ ${#archivos[@]} -eq 0 ]; then
-            echo "No se encontraron archivos PHP."
-            exit 1
-          fi
-
-          for archivo in "${archivos[@]}"; do
-            echo "Revisando: $archivo"
-            php -l "$archivo" || exit 1
-          done
-
-          echo "Validación PHP completada correctamente."
+          find SistemaTareasEscolares -type f -name "*.php" -print0 | xargs -0 -n 1 php -l
