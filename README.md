@@ -52,3 +52,15 @@ Una tarea o historia se considera terminada cuando cumple con los siguientes cri
 
 Cada integrante debe verificar que su trabajo cumpla con estos criterios antes de marcar una historia como terminada.
 
+
+## Pruebas automatizadas
+
+El Sistema de Gestión de Tareas Escolares cuenta con
+GitHub Actions para ejecutar automáticamente:
+
+- Validación de sintaxis de archivos PHP.
+- 4 casos de prueba de validación de nombres.
+- 6 casos de prueba de validación de fechas.
+
+Las pruebas se ejecutan al realizar un push o
+crear un Pull Request.
