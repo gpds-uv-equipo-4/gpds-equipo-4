@@ -32,5 +32,6 @@ foreach ($pruebas as $numero => $prueba) {
 
 echo "<hr>";
 echo "<h2>Resultados: $aprobadas de $total pruebas aprobadas</h2>";
+exit($aprobadas === $total ? 0 : 1);
 
 ?>
