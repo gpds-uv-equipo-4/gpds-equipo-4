@@ -7,7 +7,7 @@ on:
 
 jobs:
   validar-php:
-    name: Validar sintaxis PHP
+    name: Validar sintaxis y pruebas PHP
     runs-on: ubuntu-latest
 
     steps:
@@ -22,3 +22,9 @@ jobs:
       - name: Revisar archivos PHP
         run: |
           find SistemaTareasEscolares -type f -name "*.php" -print0 | xargs -0 -n 1 php -l
+
+      - name: Ejecutar pruebas de nombre
+        run: php SistemaTareasEscolares/pruebas/prueba_nombre.php
+
+      - name: Ejecutar pruebas de fecha
+        run: php SistemaTareasEscolares/pruebas/prueba_fecha.php
