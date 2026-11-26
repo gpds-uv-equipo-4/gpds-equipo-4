@@ -58,6 +58,22 @@ Cada integrante debe verificar que su trabajo cumpla con estos criterios antes d
 El Sistema de Gestión de Tareas Escolares cuenta con
 GitHub Actions para ejecutar automáticamente:
 
+## Funcionalidades del sistema
+
+El Sistema de Gestión de Tareas Escolares permite organizar y administrar las actividades académicas de los estudiantes de una manera sencilla.
+
+Entre sus principales funcionalidades se encuentran:
+
+- **Registro de tareas:** permite agregar nuevas actividades escolares con su título, descripción y fecha de entrega.
+- **Consulta de tareas:** permite visualizar las tareas registradas para mantener un mejor control de las actividades.
+- **Organización de actividades:** facilita la identificación de las tareas pendientes y las que ya fueron realizadas.
+- **Actualización de tareas:** permite modificar la información de las actividades cuando sea necesario.
+- **Seguimiento académico:** ayuda a los estudiantes a llevar un control de sus responsabilidades escolares.
+
+## Objetivo del proyecto
+
+Desarrollar un sistema que facilite la organización y el seguimiento de las tareas escolares, ayudando a los estudiantes a administrar mejor sus actividades y fechas de entrega.
+
 - Validación de sintaxis de archivos PHP.
 - 4 casos de prueba de validación de nombres.
 - 6 casos de prueba de validación de fechas.
