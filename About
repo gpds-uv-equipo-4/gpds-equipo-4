@@ -1,2 +1,3 @@
 Descripción:
-Nuestro sistema se enfoca en gestionar una agenda o intinerario de tareas escolares; este gestor, podra hacer seguimiento del progreso de las tareas o actividades creadas.
+Nuestro sistema se enfoca en gestionar una agenda o lista de tareas escolares; este gestor, podra hacer seguimiento del progreso de las tareas o actividades creadas, ya sea su avance (pendiente, en progreso, completada),
+eliminar una tarea y gestionar su fecha de vencimiento.
